@@ -10,6 +10,18 @@ Analyze the data of direct marketing campaigns (phone calls) of a Portuguese ban
 
 
 ## Data Modelling & Metrics
+Modelling using four classified Models:
+- K-Nearest Neighbors (KNN)
+- Decision Trees
+- Logistic Regression
+- Support Vector Machines (SVM)
+
+Metrics for Evaluation used:
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- AUC-ROC Curve
 
 
 ## Conclusion
