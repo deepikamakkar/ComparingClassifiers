@@ -13,8 +13,10 @@ Analyze the data of direct marketing campaigns (phone calls) of a Portuguese ban
 
 
 ## Conclusion
+- Logistic regression performs is best and is the right choice for this dataset  
+- Decision tree is suitable to recall(yes)
 
 ## Next Steps
 1. **Deploy Model in Prod**: You can deoloy model in Prod and continue the evaluation of model on varied dataset.
 2. **Enhance Model Usage**: You should use other models like Random Forest to derive futher accuracy of model.
-3. **Support Campaigin using the data:** To make the more people subscribe, use this data to apply to identified age group, martial status, imcome groups.
+3. **Support Campaign using the data:** To make the more people subscribe, use this data to apply to identified age group, martial status, imcome groups.
