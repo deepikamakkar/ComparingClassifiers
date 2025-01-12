@@ -6,7 +6,7 @@ Analyze the data of direct marketing campaigns (phone calls) of a Portuguese ban
 ## Data Overview
 This data set is obtained from https://archive.ics.uci.edu/dataset/222/bank+marketing and is related with direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit (variable y).
 
-### Dataset Information
+##### Dataset Information
 The data is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
 
 There are four datasets:
@@ -19,16 +19,23 @@ There are four datasets:
 The classification goal is to predict if the client will subscribe (yes/no) a term deposit (variable y).
 
 ## Data Pre Processing
+##### Dataset: 4,119 entries, 21 columns.
 
+##### Feature Set:
+Categorical - [job, marital, education, default, housing,loan, contact, month, day_of_week, poutcome]
+
+Numeric- [age, duration, campaign, pdays, previous, emp.var.rate, cons.price.idx, cons.conf.idx, euribor3m, nr.employed]
+
+Target Variable - [ yes, no]
 
 ## Data Modelling & Metrics
-Modelling using four classified Models:
+##### Modelling using four classified Models:
 - K-Nearest Neighbors (KNN)
 - Decision Trees
 - Logistic Regression
 - Support Vector Machines (SVM)
 
-Metrics for Evaluation used:
+##### Metrics for Evaluation used:
 - Accuracy
 - Precision
 - Recall
